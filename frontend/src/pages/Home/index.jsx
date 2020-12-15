@@ -1,13 +1,18 @@
 import React from 'react';
 
+import Animation from '../../components/Animation';
+
 import './styles.css';
 
 import yoda from '../../assets/images/characters/yoda.png';
 import separator from '../../assets/images/separator.svg';
 
+
+
 const Home = () => {
     return (
         <>
+            <Animation/>
             <div className="section-1">
                 <div className="container">
                     <header className="header">
