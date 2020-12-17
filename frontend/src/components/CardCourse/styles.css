@@ -1,0 +1,27 @@
+.section-2 .container .card-container{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.section-2 .container .card-container article h4{
+    margin-top: 8px;
+    text-align: center;
+}
+
+.section-2 .container .card-container article img{
+    border-radius: 4px;
+}
+
+.section-2 .container button{
+    width: 320px;
+    height: 48px;
+    border-radius: 32px;
+    border: 0;
+    font-weight: bold;
+    outline: 0;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgba(89, 254, 155, 0.9);
+    margin-bottom: 64px;
+}
