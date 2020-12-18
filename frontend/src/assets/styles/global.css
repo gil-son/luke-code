@@ -13,3 +13,21 @@ html {
 a {
     text-decoration: none;
 }
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #20B2AA;
+    border-radius: 10px;
+    min-height: 60px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #BDBDBD;
+}
+
+

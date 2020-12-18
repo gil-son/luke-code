@@ -10,6 +10,7 @@ import separator from '../../assets/images/separator.svg';
 import courseReactRedux from '../../assets/images/courses/react-redux.jpg';
 import coursePHP from '../../assets/images/courses/php.jpg';
 import courseFlutter from '../../assets/images/courses/flutter.jpg';
+import CardCategory from '../../components/CardCategory';
 
 
 
@@ -33,7 +34,7 @@ const Home = () => {
                     <main>
                         <section>
                             <h1>Se torne um mestre <br/> da programação!</h1>
-                            <img src={separator} alt="" />
+                            <img src={separator} alt="Separator" />
                             <p>
                                 De o próximo passo para o seu futuro, <br />
                                 que a força esteja com você.
@@ -64,6 +65,9 @@ const Home = () => {
                     <button>
                             INSCREVA-SE
                     </button>
+                    <button className="btn-menu">
+                            MENU
+                    </button>
                 </div>
 
                     
@@ -71,18 +75,25 @@ const Home = () => {
             <div className="section-3">
                 <div className="container">
                     <h2>O que oferecemos para você</h2>
-                        <section className="categories-container">                        
-                            <div className="category-card">
-                                <div className="category-card-image">
-                                    {/*<img src="" alt="">*/}
-                                </div>
-                                <div className="category-card-content">
-                                    <h4>BACK-END</h4>
-                                    <p>22 Cursos</p>
-                                </div>
-                            </div>   
+                        
+
+                         <section className="categories-container">  
+                            <CardCategory title="BACK-END" courses="22 cursos" color="red"/>
+                            <CardCategory title="BANCO DE DADOS" courses="8 cursos" color="yellow"/>
+                            <CardCategory title="SEGURANÇA" courses="12 cursos" color="green"/>
+                            
+
                          </section>
 
+                         <section className="categories-container">                        
+                            <CardCategory title="MOBILE" courses="16 cursos" color="blue"/>
+                            <CardCategory title="FRONT-END" courses="18 cursos" color="gray"/>
+                            <CardCategory title="CLOUDING COMPUTING" courses="14 cursos" color="orange"/>
+
+                           
+                         </section>
+
+                         
                          
                 </div>
             </div>
