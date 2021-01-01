@@ -149,7 +149,7 @@
 }
 
 
-/* Tela < 1130*/
+/* Tela < 1130 ou o máximo de largura que pode ter é 1130*/
 
 @media ( max-width: 1130px){
     .section-1 .container main section:nth-child(1) h1 {
