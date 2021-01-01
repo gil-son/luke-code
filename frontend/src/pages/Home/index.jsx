@@ -29,6 +29,9 @@ const Home = () => {
                             <button>
                                 INSCREVA-SE
                             </button>
+                            <button className="btn-menu"> 
+                                <i className="fas fa-bars"></i>
+                            </button>
                         </nav>
                     </header>
                     <main>
@@ -72,7 +75,7 @@ const Home = () => {
 
                     
             </div>
-            <div className="section-3">
+            {/* <div className="section-3">
                 <div className="container">
                     <h2>O que oferecemos para você</h2>
                         
@@ -80,12 +83,7 @@ const Home = () => {
                          <section className="categories-container">  
                             <CardCategory image="https://www.flaticon.com/svg/static/icons/svg/622/622397.svg" title="BACK-END" courses="22 cursos" color="red"/>
                             <CardCategory image="https://www.flaticon.com/svg/static/icons/svg/689/689401.svg" title="BANCO DE DADOS" courses="8 cursos" color="yellow"/>
-                            <CardCategory image="https://www.flaticon.com/svg/static/icons/svg/388/388531.svg" title="SEGURANÇA" courses="12 cursos" color="green"/>
-                            
-
-                         </section>
-
-                         <section className="categories-container">                        
+                            <CardCategory image="https://www.flaticon.com/svg/static/icons/svg/388/388531.svg" title="SEGURANÇA" courses="12 cursos" color="green"/>                   
                             <CardCategory image="https://www.flaticon.com/svg/static/icons/svg/545/545245.svg"  title="MOBILE" courses="16 cursos" color="blue"/>
                             <CardCategory image="https://www.flaticon.com/svg/static/icons/svg/781/781683.svg" title="FRONT-END" courses="18 cursos" color="#c3c3c3c3"/>
                             <CardCategory image="https://www.flaticon.com/svg/static/icons/svg/622/622340.svg" title="CLOUDING COMPUTING" courses="14 cursos" color="orange"/>
@@ -96,7 +94,7 @@ const Home = () => {
                          
                          
                 </div>
-            </div>
+            </div> */}
         </>
     );
 }
