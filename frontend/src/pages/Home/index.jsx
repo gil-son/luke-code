@@ -75,7 +75,7 @@ const Home = () => {
 
                     
             </div>
-            {/* <div className="section-3">
+            <div className="section-3">
                 <div className="container">
                     <h2>O que oferecemos para você</h2>
                         
@@ -91,10 +91,13 @@ const Home = () => {
                            
                          </section>
 
-                         
-                         
+                         <footer>
+                            <div className="box">
+                                &copy; {new Date().getFullYear()} - Luke Code - Alguns direitos reservados.
+                            </div>
+                         </footer>
                 </div>
-            </div> */}
+            </div>
         </>
     );
 }
